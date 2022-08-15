@@ -9,7 +9,7 @@ module.exports = {
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-cara/gatsby-config.js
     siteTitle: `Martin Blahutka Portfolio`,
     siteTitleAlt: `Blahutka Developer`,
-    siteHeadline: `Martin the creator`,
+    siteHeadline: `Blahutka Developer`,
     siteUrl: `https://blahutka.netlify.app`,
     siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
     siteLanguage: `en`,
