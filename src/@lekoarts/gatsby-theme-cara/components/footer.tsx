@@ -18,7 +18,7 @@ const Footer = () => {
       >
         {isDark ? `Light` : `Dark`}
       </button> */}
-      Copyright &copy; {new Date().getFullYear()}. All rights reserved.
+      Copyright &copy; {new Date().getFullYear()}
       <br />
       <Flex
         sx={{
@@ -29,9 +29,7 @@ const Footer = () => {
           fontWeight: `semibold`,
           a: { color: `text` },
         }}
-      >
-       
-       
+      >     
       </Flex>
     </Box>
   )

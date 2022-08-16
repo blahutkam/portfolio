@@ -20,16 +20,16 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
       <UpDown>
         <Svg icon="box" hiddenMobile width={6} color="icon_blue" left="90%" top="85%" />
         <Svg icon="upDown" hiddenMobile width={8} color="icon_darkest" left="70%" top="20%" />
-        <Svg icon="triangle" width={8} stroke color="icon_darkest" left="25%" top="5%" />
-        <Svg icon="mountain" hiddenMobile width={48} color="icon_darker" left="40%" top="100%" />
-        <Svg icon="bike" stroke hiddenMobile width={32} color="icon_darker" left="85%" top="15%" />
+        <Svg icon="mountain" hiddenMobile width={48} color="icon_darker" left="40%" top="120%" />
+        {/* <Svg icon="bike" stroke hiddenMobile width={32} color="icon_darker" left="85%" top="15%" /> */}
+      <Svg icon="hexa" hiddenMobile width={12} stroke color="icon_darker" left="4%" top="20%" />
       </UpDown>
       <UpDownWide>
-        <Svg icon="trees" hiddenMobile width={24} color="icon_purple" left="5%" top="60%" />
-        <Svg icon="hexa" width={64} hiddenMobile color="icon_orange" stroke left="38%" top="70%" />
+        <Svg icon="triangle" width={8} stroke color="icon_darkest" left="25%" top="5%" />
+        <Svg icon="trees" hiddenMobile width={24} color="DarkSeaGreen" left="85%" top="10%" />
+        <Svg icon="hexa" width={64} hiddenMobile color="icon_orange" stroke left="38%" top="90%" />
         <Svg icon="upDown" hiddenMobile width={8} color="icon_darkest" left="45%" top="10%" />
       </UpDownWide>
-      <Svg icon="circle" hiddenMobile width={6} color="icon_brightest" left="4%" top="20%" />
       <Svg icon="circle" width={12} color="icon_darkest" left="70%" top="60%" />
       <Svg icon="box" width={6} color="icon_orange" left="10%" top="10%" />
       <Svg icon="box" width={12} color="icon_darkest" left="20%" top="30%" />
