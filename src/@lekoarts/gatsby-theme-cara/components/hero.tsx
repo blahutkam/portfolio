@@ -48,18 +48,19 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
       <Svg icon="trees" width={20} color="icon_darker" left="80%" top="80%" />
     </Divider>
     <Content sx={{ variant: `texts.bigger` }} speed={0.4} offset={offset} factor={factor}>
+
       <Inner>
-        <p
+        <h1
           sx={{
             position: `absolute`,
-            top: 3,
+            top: 0,
             right: `5%`,
             textAlign: `right`,
             lineHeight: 1.2
           }}>
           <strong>Martin <br/> Blahutka</strong>
-          </p>
-        <Intro />
+          </h1>
+        <Intro/>
       </Inner>
     </Content>
   </div>
