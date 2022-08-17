@@ -25,7 +25,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         {/* <Svg icon="triangle" width={16} stroke color="icon_darkest" left="30%" top="65%" /> */}
         {/* <Svg icon="tree" hiddenMobile width={16} stroke color="icon_darkest" left="30%" top="65%" />  */}
         {/* <Svg icon="cross" width={16} stroke color="icon_pink" left="28%" top="15%" /> */}
-            <Svg icon="boot" hiddenMobile width={12} stroke color="#483D8B" left="5%" top="15%" />
+            <Svg icon="boot" hiddenMobile width={16} stroke color="#483D8B" left="5%" top="15%" />
         {/* <Svg icon="circle" width={6} color="icon_darkest" left="75%" top="10%" /> */}
         {/* <Svg icon="tree" hiddenMobile width={8} color="icon_darkest" left="45%" top="10%" /> */}
       </UpDownWide>
