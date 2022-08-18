@@ -25,7 +25,7 @@ const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) =
            // textColor: `#000`,
             gridGap: [4, 4, 4, 5],
             gridTemplateColumns: [`1fr`, `1fr`, `repeat(2, 1fr)`],
-            h2: { pl: 2, pr:`2`, gridColumn: `-1/1`, width: `fit-content`, background: `#a0aec0`, color: ` !important`, borderRadius: `lg`, },
+            h2: { pl: 2, pr:`2`, gridColumn: `-1/1`, width: `fit-content`,  color: ` #a0aec0` },
 
           }}
         >
