@@ -1,5 +1,5 @@
-import { merge } from "theme-ui"
-import { tailwind } from "@theme-ui/presets"
+import { merge } from "theme-ui";
+import { tailwind } from "@theme-ui/presets";
 
 const theme = merge(tailwind, {
   initialColorModeName: `dark`,
@@ -38,7 +38,7 @@ const theme = merge(tailwind, {
       },
     },
   },
-  breakpoints: [`400px`, `600px`, `900px`, `1200px`, `1600px`],
+  breakpoints: [`400px`, `600px`, `900px`, `1600px`, `1600px`],
   footer: {
     textAlign: `center`,
     display: `block`,
@@ -141,6 +141,6 @@ const theme = merge(tailwind, {
       },
     },
   },
-})
+});
 
-export default theme
+export default theme;
