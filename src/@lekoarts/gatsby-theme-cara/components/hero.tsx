@@ -43,7 +43,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
     </Divider>
     <Content sx={{ variant: `texts.bigger` }} speed={0.4} offset={offset} factor={factor}>
 
-      <Inner>
+      <Inner >
         <h1 
           sx={{
             color: `DarkSeaGreen`,
@@ -53,7 +53,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
           }}>
           Martin Blahutka
           </h1>
-          <hr sx={{display: ['none', 'none', 'none', 'block', 'block']}} width="100%" color="#2d3748" size="1px" align="right" />
+          <hr sx={{display: ['none', 'none', 'none', 'none', 'block']}} width="100%" color="#2d3748" size="1px" align="right" />
         <Intro/>
       </Inner>
     </Content>
