@@ -20,9 +20,11 @@ const ProjectCard = ({ link, title, children, bg }: ProjectCardProps) => (
       textDecoration: `none`,
       borderRadius: `lg`,
       px: 2,
-      py: [2, 3],
+      py: [2, 4],
       color: `white`,
-      background: bg || `none`,
+      //background: bg || `none`,
+      background: `rgba(192, 192, 192, 0.3)`,
+
       transition: `all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important`,
       "&:hover": {
         color: `white !important`,
@@ -31,17 +33,17 @@ const ProjectCard = ({ link, title, children, bg }: ProjectCardProps) => (
       },
     }}
   >
-   <h3>{title}</h3> 
+   <h3 sx={{fontSize: [4], m: 0}}>{title}</h3> 
     <div
       sx={{
             backgroundColor: `#fff`,
             borderRadius: `lg`,
             p: 2,
-            height: `75%`,
+            height: `80%`,
             position: `relative`,
-            opacity: 0.85
+            opacity: 0.90
           }}>
-      <div sx={{ opacity: 0.85, color: `#2d3748`}}>{children}</div>
+      <div sx={{ opacity: 0.85, color: `#2d3748`, }}>{children}</div>
       <div
         sx={{
           textTransform: `uppercase`,
