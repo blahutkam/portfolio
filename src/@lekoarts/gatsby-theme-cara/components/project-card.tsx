@@ -31,16 +31,17 @@ const ProjectCard = ({ link, title, children, bg }: ProjectCardProps) => (
       },
     }}
   >
+   <h3>{title}</h3> 
     <div
       sx={{
             backgroundColor: `#fff`,
             borderRadius: `lg`,
             p: 4,
-            height: `100%`,
+            height: `80%`,
             position: `relative`,
             opacity: 0.85
           }}>
-      <div sx={{ opacity: 0.85, color: `#2d3748`, pb: 5 }}>{children}</div>
+      <div sx={{ opacity: 0.85, color: `#2d3748`, pb: 1 }}>{children}</div>
       <div
         sx={{
           textTransform: `uppercase`,
@@ -55,7 +56,7 @@ const ProjectCard = ({ link, title, children, bg }: ProjectCardProps) => (
 
         }}
       >
-        {title}
+        
       </div>
     </div>
   </a>
