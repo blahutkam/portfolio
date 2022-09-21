@@ -36,12 +36,12 @@ const ProjectCard = ({ link, title, children, bg }: ProjectCardProps) => (
       sx={{
             backgroundColor: `#fff`,
             borderRadius: `lg`,
-            p: 4,
-            height: `80%`,
+            p: 2,
+            height: `75%`,
             position: `relative`,
             opacity: 0.85
           }}>
-      <div sx={{ opacity: 0.85, color: `#2d3748`, pb: 1 }}>{children}</div>
+      <div sx={{ opacity: 0.85, color: `#2d3748`}}>{children}</div>
       <div
         sx={{
           textTransform: `uppercase`,
@@ -55,8 +55,7 @@ const ProjectCard = ({ link, title, children, bg }: ProjectCardProps) => (
           color: `#2d3748` 
 
         }}
-      >
-        
+      >        
       </div>
     </div>
   </a>
