@@ -22,7 +22,6 @@ const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) =
         <div
           sx={{
             display: `grid`,
-           // textColor: `#000`,
             gridGap: [4, 4, 4, 5],
             gridTemplateColumns: [`1fr`, `1fr`, `repeat(2, 1fr)`],
             h2: { pl: 2, pr:`2`, gridColumn: `-1/1`, width: `fit-content`,  color: ` #ffffff`},
@@ -35,8 +34,6 @@ const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) =
     </Content>
     <Divider speed={0.1} offset={offset} factor={factor}>
       <UpDown>
-        {/* <Svg icon="box" width={6} color="icon_brightest" left="85%" top="75%" /> */}
-        {/* <Svg icon="upDown" width={8} color="icon_teal" left="70%" top="20%" /> */}
         <Svg icon="triangle" width={8} stroke color="icon_pink" left="25%" top="5%" />
         <Svg icon="circle" hiddenMobile width={24} color="icon_brightest" left="17%" top="60%" />
         <Svg icon="circle" width={12} color="icon_pink" left="80%" top="60%" />
@@ -50,9 +47,7 @@ const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) =
         <Svg icon="upDown" hiddenMobile width={8} color="icon_green" left="45%" top="10%" />
       </UpDownWide>
       <Svg icon="hexa" width={16} stroke color="icon_red" left="75%" top="30%" />
-      {/* <Svg icon="circle" hiddenMobile width={6} color="icon_brightest" left="4%" top="20%" /> */}
       <Svg icon="box" width={6} color="icon_blue" left="10%" top="10%" />
-      {/* <Svg icon="box" width={12} color="icon_yellow" left="29%" top="26%" /> */}
       <Svg icon="hexa" width={48} stroke color="icon_yellow" left="94%" top="70%" />
     </Divider>
   </div>

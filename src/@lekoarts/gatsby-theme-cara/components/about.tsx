@@ -21,7 +21,6 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         <Svg icon="box" hiddenMobile width={6} color="icon_blue" left="90%" top="85%" />
         <Svg icon="upDown" hiddenMobile width={8} color="icon_darkest" left="70%" top="20%" />
         <Svg icon="mountain" hiddenMobile width={48} color="icon_darker" left="40%" top="120%" />
-        {/* <Svg icon="bike" stroke hiddenMobile width={32} color="icon_darker" left="85%" top="15%" /> */}
       <Svg icon="hexa" hiddenMobile width={12} stroke color="icon_darker" left="4%" top="20%" />
       </UpDown>
       <UpDownWide>

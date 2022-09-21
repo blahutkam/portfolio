@@ -13,28 +13,12 @@ import background from "../../../../static/flower.jpeg"
 
 const Contact = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
   <div>  
-      {/* <div className="kkt" 
-      sx={{
-        width: `100%`,
-        height: `100%`,
-        backgroundColor: `#000`,
-        }}/>  */}
       <Divider fill="divider" speed={0.2} offset={offset} factor={factor}
       sx={{
         backgroundImage: `url(${background})`,
         opacity: `0.7`,
         backgroundPosition: `100% 0%`,
       }}>
-        {/* <Image scr={background}
-        sx={{
-          width: 500,
-          height: `100vh`,
-          position:`fixed`,
-          bottom: 0,
-          right: 0,
-          borderRadius: 100,
-        } 
-        }/>*/}
         <div sx={{ position: `absolute`, bottom: 0, width: `full`, transform: `matrix(1, 0, 0, -1, 0, 0)`,  }}>
           <div
             sx={{

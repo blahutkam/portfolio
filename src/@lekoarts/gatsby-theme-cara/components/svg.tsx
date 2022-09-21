@@ -203,9 +203,6 @@ const icons = {
    bee: {
     shape: (
     <svg  viewBox="0 0 512 512"
-    // sx={{
-    //   transform: `rotate(${45})`
-    // }}
      >
         <g>
             <g>
