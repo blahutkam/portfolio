@@ -22,16 +22,16 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         </div>
       </UpDownWide>
       <div sx={{display: ['none', 'none', 'none', 'none', 'block']}}>
-        <Svg icon="bee" hiddenMobile width={12}  color="indianRed" left="87%" top="40%" />
+        <Svg icon="bee" hiddenMobile width={12}  color="indianRed" left="87%" top="50%" />
       </div>
       <Svg icon="trees" hiddenMobile width={32} color="icon_darker" left="25%" top="80%"  />
-      <Svg icon="tree" hiddenMobile width={16} color="icon_darker" left="30%" top="20%" />
+      <Svg icon="tree" hiddenMobile width={16} color="icon_darker" left="30%" top="10%" />
       <Svg icon="tree" hiddenMobile width={24} color="icon_darkest" left="-3%" top="40%" />
       <div sx={{display: ['none', 'none', 'none', 'none', 'block']}}>
-        <Svg icon="tent" hiddenMobile width={32} stroke color="khaki" left="5%" top="70%" />
+        <Svg icon="tent" hiddenMobile width={32} stroke color="khaki" left="5%" top="80%" />
       </div>
-      <div sx={{display: ['none', 'none', 'block', 'block', 'block']}}>
-        <Svg icon="mountain" hiddenMobile width={48} color="icon_darker" left="75%" top="5%" /> 
+      <div sx={{display: ['none', 'none', 'none', 'none', 'block']}}>
+        <Svg icon="mountain" hiddenMobile width={64} color="icon_darker" left="85%" top="5%" /> 
       </div>
       <Svg icon="trees"  hiddenMobile width={12} color="icon_darkest" left="20%" top="10%" />
       <div sx={{display: ['none', 'none', 'none', 'none', 'block']}}>
@@ -53,7 +53,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
           }}>
           Martin Blahutka
           </h1>
-          <hr sx={{display: ['none', 'none', 'none', 'none', 'block']}} width="100%" color="#2d3748" size="1px" align="right" />
+          <hr sx={{display: ['none', 'none', 'none', 'block', 'block']}} width="100%" color="#2d3748" size="1px" align="right" />
         <Intro/>
       </Inner>
     </Content>
