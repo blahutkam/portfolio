@@ -39,6 +39,7 @@ const theme = merge(tailwind, {
     root: {
       margin: 0,
       padding: 0,
+      // wordBreak: `break-all`,
       boxSizing: `border-box`,
       textRendering: `optimizeLegibility`,
       WebkitFontSmoothing: `antialiased`,
