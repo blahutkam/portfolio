@@ -13,19 +13,19 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
     <Divider speed={0.2} offset={offset} factor={factor}>
       <UpDown>
         <div sx={{display: ['none', 'none', 'none', 'none', 'block']}}>
-          <Svg icon="bike" hiddenMobile width={32} color="DeepSkyBlue" left="65%" top="80%" />
+          {/* <Svg icon="bike" hiddenMobile width={32} color="DeepSkyBlue" left="65%" top="80%" /> */}
         </div>
       </UpDown>
       <UpDownWide>
         <div sx={{display: ['none', 'none', 'none', 'none', 'block']}}>
-          <Svg icon="boot" hiddenMobile width={16} stroke color="#483D8B" left="5%" top="2%" />
+          {/* <Svg icon="boot" hiddenMobile width={16} stroke color="#483D8B" left="5%" top="2%" /> */}
         </div>
       </UpDownWide>
       <div sx={{display: ['none', 'none', 'none', 'none', 'block']}}>
-        <Svg icon="bee" hiddenMobile width={12}  color="indianRed" left="87%" top="50%" />
+        {/* <Svg icon="bee" hiddenMobile width={12}  color="indianRed" left="87%" top="50%" /> */}
       </div>
 
-      <Svg icon="tree" hiddenMobile width={10} color="icon_darker" left="33%" top="5%" />
+      <Svg icon="tree" hiddenMobile width={10} color="icon_darker" left="60%" top="5%" />
       <Svg icon="tree" hiddenMobile width={24} color="icon_darkest" left="-3%" top="40%" />
       <div sx={{display: ['none', 'none', 'none', 'none', 'block']}}>
         <Svg icon="tent" hiddenMobile width={32} stroke color="icon_darker" left="5%" top="80%" />
@@ -35,7 +35,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
       </div>
       <Svg icon="trees"  hiddenMobile width={20} color="icon_darkest" left="20%" top="10%" />
       <div sx={{display: ['none', 'none', 'none', 'none', 'block']}}>
-        <Svg icon="trees" hiddenMobile width={24} hiddenMobile color="plum" left="45%" top="10%" />
+        {/* <Svg icon="trees" hiddenMobile width={24} hiddenMobile color="plum" left="45%" top="10%" /> */}
       </div>
 
       <Svg icon="trees" hiddenMobile width={64} color="icon_darker" left="90%" top="80%" />
