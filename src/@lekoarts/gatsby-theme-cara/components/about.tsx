@@ -25,10 +25,10 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
       </UpDown>
       <UpDownWide>
         <Svg icon="triangle" width={8} stroke color="icon_darkest" left="25%" top="5%" />
-        <Svg icon="trees" hiddenMobile width={24} color="DarkSeaGreen" left="85%" top="10%" />
         <Svg icon="hexa" width={64} hiddenMobile color="icon_orange" stroke left="38%" top="90%" />
         <Svg icon="upDown" hiddenMobile width={8} color="icon_darkest" left="45%" top="10%" />
       </UpDownWide>
+        <Svg icon="trees" hiddenMobile width={24} color="DarkSeaGreen" left="85%" top="10%" />
       <Svg icon="circle" width={12} color="icon_darkest" left="70%" top="60%" />
       <Svg icon="box" width={6} color="icon_orange" left="10%" top="10%" />
       <Svg icon="box" width={12} color="icon_darkest" left="20%" top="30%" />
