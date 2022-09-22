@@ -30,7 +30,7 @@ const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) =
         >
           <ProjectsMDX />
         </div>
-            <p sx={{color: `indianRed`}}>
+            <p sx={{color: `indianRed`, pt:4, opacity: 0.7}}>
               Agency: FNZ | Our FinTech clients entrusted us with their projects to not be shared externally.
             </p>
       </Inner>

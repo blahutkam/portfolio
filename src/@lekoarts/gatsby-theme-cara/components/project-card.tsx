@@ -23,7 +23,7 @@ const ProjectCard = ({ link, title, children, bg }: ProjectCardProps) => (
       py: [2, 4],
       color: `white`,
       //background: bg || `none`,
-      background: `rgba(0, 0, 30, 0.3)`,
+      backgroundImage: `linear-gradient(to bottom right, rgba(0, 0, 30, 0.3),rgba(0, 0, 30, 0.1))`,
 
       transition: `all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important`,
       "&:hover": {
